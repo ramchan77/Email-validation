@@ -14,8 +14,8 @@ count=0
 fd = open(str(input_file)+'_output.csv','a')
 fd.write('"Given Email";"Response Code";"Domain Status"\n')
 fd.close()
-fromAddress = 'ram.chan7796@gmail.com'
-pwd='ramchan7796'
+fromAddress = 'email'
+pwd='pass'
 regex = '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$'
 for index,Email in input_data.itertuples():
 	# Address used for SMTP MAIL FROM command  
